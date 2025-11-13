@@ -1,4 +1,4 @@
-# KDExLLM [Website](https://urban-spatio-temporal-data-mining.github.io/Knowledge-and-Data-Meets-LLM/)
+# [KDExLLM](https://urban-spatio-temporal-data-mining.github.io/Knowledge-and-Data-Meets-LLM/)
 Knowledge and Data Engineering Meets Large Language Models: Challenges and Opportunities Workshop @ICDE'26
 
 ## Workshop Objectives
