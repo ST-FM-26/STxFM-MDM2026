@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Data Engineering Meets Large Language Models: Challenges and Opportunities Workshop</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">DExLLM</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#toi">Topics of Interest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#dates">Important Dates</a>
+          </li>
+    <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#submission">Submission Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#program">Workshop Program & Proceedings</a>
+          </li>
+    <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#keynote">Keynote Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Organizers</a>
+          </li>
+<!--           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#past_years">Past Iterations</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase" style="font-size: 4rem;">
+          Data Engineering Meets Large Language Models:<br>
+          <span class="smaller-heading"  style="font-size: 3rem;">Challenges and Opportunities</span>
+        </div>
+  <div class="intro-lead-in">DExLLM workshop at <a href="https://ieee-icde.org/2025/">ICDE'25</a></div>
+         <!-- <div class="intro-lead-in">Proceedings are available <a href="http://ceur-ws.org/Vol-2635/">on-line</a>.</div> -->
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#home">Tell Me More!</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+          <p style="text-align:justify">
+            This workshop on the synergy between Data engineering (DE) and Large Language Models (LLMs) is a pioneering event in top-tier conferences. It brings together experts to share recent challenges and opportunities, aiming to inspire future research. With oral presentations and poster sessions, the workshop provides a platform for researchers from natural language processing, data engineering, and database systems to discuss ideas, review past work, and explore new directions. The focus is on the synergy between LLMs and DBMS from two aspects. The first explores how LLMs empower DBMS tasks, such as data retrieval, query optimization, and index tuning. 
+            The second examines how DE enhance the capability of LLM through data engineering, retrieval-augmented generation (RAG) systems, multi-modal data management, and more.
+            By including participants from academia and industry, the workshop aims to connect practical applications with research, encouraging collaboration that will shape the future of intelligent databases.</p>
+
+          <p style="text-align:justify">
+            By inviting experts to deliver keynote speeches, the DExLLM workshop on ICDE'25 aims to share the latest innovations and breakthroughs on the target topic, serving as a beacon for current and future research. The oral and poster sessions provide a communication platform for researchers in the areas of either DE or natural language processing to exchange their ideas, summarize existing works, and discuss prospective aspects. It will focus on the under-explored ability for both DE and LLMs including enhancing LLMs with powerful DBMS and empowering data engineering with the advantages of LLMs. By including participants from both academia and industry, this workshop tries to narrow the gaps between the application attempts and methodology studies and, more importantly, to push the boundaries of data engineering in the era of LLMs.
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light" id="toi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Topics of Interest</h2>
+          <div style="text-align:justify">
+     
+            Researchers in the fields of data management and artificial intelligence have begun to explore the integration of LLMs and DE to address the evolving challenges in data processing. Initial studies highlight the potential of LLMs to enhance tasks such as query optimization and natural language translation to SQL, providing new avenues for improving DBMS efficiency. Despite these promising developments, the intersection of LLMs and DBMS remains a relatively nascent area, requiring further investigation and collaboration. To facilitate knowledge sharing and encourage contributions from both academic and industry perspectives.
+      </p>
+      <p style="text-align:justify">
+     The workshop will be welcoming theory and methodology papers falling into the scope of following themes, including but not limited to:
+      <br />
+      <ul>
+        <li><strong>LLMs-empowered DE</strong>
+            <ul>
+                <li>LLM-enabled Improvements to Foundational DB Algorithms</li>
+                <li>LLM-based Anomaly Detection in DBMS</li>
+                <li>Learned Database Design, Configuration, and Tuning</li>
+                <li>LLM for Query Optimization, Indexing, and Partitioning</li>
+                <li>Novel Query Interfaces and Interactive Query Refinement</li>
+                <li>Data Cleaning, Integration, and Augmentation with LLMs</li>
+                <li>Reasoning Over Knowledge Bases with LLMs</li>
+                <li>Automated Data Understanding and Visualization</li>
+                <li>Natural Language Queries and SQL Co-pilots</li>
+                <li>Text-to-SQL Design and Solutions</li>
+                <li>Context-aware Data Retrieval with LLMs</li>
+                <li>Personalized Query Optimization Using LLMs</li>
+            </ul>
+        </li>
+        <li><strong>Data Engineering-Enhanced LLMs</strong>
+            <ul>
+                <li>Data Collection and Preparation for LLMs</li>
+                <li>Data and Metadata Management for the LLM Lifecycle</li>
+                <li>DB-inspired Techniques for Modeling, Storage, and Provenance of LLMs</li>
+                <li>Data Management for Multi-modal LLMs</li>
+                <li>Vector Data Management for LLMs</li>
+                <li>RAG System Retrieval and Reasoning for LLMs</li>
+                <li>Novel Data Management Systems for Accelerating LLM Training</li>
+            </ul>
+        </li>
+    </ul>
+            <br /><br />
+         </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="dates">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Important Dates</h2>
+          <div style="text-align:left">
+           <ul>
+            <li>
+              Submission Deadline: <b><del style="color:gray;">Feb 5</del>, Feb 28, 2025 (Extended)</b><br>
+            </li>
+            <li>
+              Notification of Acceptance: <b><del style="color:gray;">Feb 15</del>, Mar 15, 2025</b><br>
+            </li>     
+            <li>
+              Camera-ready Paper Due: <b><del style="color:gray;">Mar 1</del>, Mar 31, 2025</b><br>
+            </li>
+            <li>DExLLM at ICDE'25 Workshop Day: <b>May 19th, 2025, Half-Day (PM)</b> </li>
+           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light" id="submission">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Submission Details</h2>
+          <div style="text-align:justify">
+          Workshop papers should not exceed <b>10 pages for long paper and 6 pages for short paper (not including references)</b>. No appendix is allowed. Papers must be submitted in PDF format according to the IEEE template published in the IEEE guidelines, selecting the generic “conference” sample. The PDF files must have all non-standard fonts embedded. Workshop papers must be self-contained and in English. Submissions will be reviewed double-blind, and author names and affiliations should NOT be listed. Submitted works will be assessed based on their novelty, technical quality, potential impact, and clarity of writing. Please refer to the ICDE'25 website for further details.
+     <!-- <a href="https://wi-lab.com/cyberchair/2022/icdm22/scripts/submit.php?subarea=S04&undisplay_detail=1&wh=/cyberchair/2022/icdm22/scripts/ws_submit.php">Submission Link</a> -->
+    <br /><br />Note that at least one of the authors of the accepted workshop papers must register for the workshop (details to come on the main ICDE'25 website). 
+    For questions about submission, please contact us at: wenqifan03@gmail.com
+    
+    <br /><br />To submit your work, please use the following <a href="https://cmt3.research.microsoft.com/DExLLM2025/Submission/Index">Submission Link</a>.
+    
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="program">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Workshop Program</h2>
+          <div style="text-align:left">
+            <link
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+            />
+
+            <style>
+              /* keeps times in one narrow column & trims extra space */
+              .schedule-table th,
+              .schedule-table td {
+                padding: .35rem .25rem;
+                vertical-align: top;
+              }
+              .schedule-table th {               /* column with times */
+                white-space: nowrap;
+                font-weight: 600;
+              }
+              .schedule-table .presenter {       /* gray, italic line */
+                font-style: italic;
+                color: #6c757d;
+                display: block;
+              }
+              /* optional: faint dashed row divider except after last row */
+              .schedule-table tbody tr:not(:last-child) td {
+                border-bottom: 1px dashed #dee2e6;
+              }
+            </style>
+
+            <div class="container my-4">
+              <div class="row">
+                <div class="col-lg-12"></div>
+                <table class="table table-borderless schedule-table">
+                <tbody>
+                  <tr>
+                  <th>Venue</th>
+                  <td>📌 <b>QR-404, The Hong Kong Polytechnic University, Kowloon, Hong Kong SAR</b></td>
+                  </tr>
+                  <tr>
+                  <th>14:00 - 14:10</th>
+                  <td>👏 <b>Opening Remarks</b></td>
+                  </tr>
+
+                  <tr>
+                  <th>14:10 - 14:40</th>
+                  <td>🎯 <b>Invited Keynote 1:</b> Privacy Preservation in LLMs
+                  <span class="presenter">Presenter: Prof. Jian Pei (Duke University)</span>
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>14:40 - 15:10</th>
+                  <td>🎯 <b>Invited Keynote 2:</b> Accurate and Regret-aware Question Answering with Semi-structured Data
+                  <span class="presenter">Presenter: Prof. Jianzhong Qi (The University of Melbourne)</span>
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>15:10 - 15:20</th>
+                  <td>📄 <b>Oral Presentation:</b> “Hallucination Detection with Small Language Models”
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>15:20 - 15:30</th>
+                  <td>📄 <b>Oral Presentation:</b> “Risk-Aware Automatic Text Summarization with Pre-Identification of Risk Categories and Emphasis”
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>15:30 - 16:00</th>
+                  <td>☕ <b>Coffee Break</b></td>
+                  </tr>
+
+                  <tr>
+                  <th>16:00 - 16:30</th>
+                  <td>🎯 <b>Invited Keynote 3:</b> Data Preparation for Large Language Models
+                  <span class="presenter">Presenter: Prof. Wentao Zhang (Peking University)</span>
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>16:30 - 16:40</th>
+                  <td>📄 <b>Oral Presentation:</b> “RBRTI: Retrieval-Based Risk Type Identification from Financial News”
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>16:40 - 16:50</th>
+                  <td>📄 <b>Oral Presentation:</b> “Structured Retrieval-Augmented Generation for Multi-Entity Question Answering over Heterogeneous Sources”
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>16:50 - 17:00</th>
+                  <td>📄 <b>Oral Presentation:</b> “Retrieval-Augmented Classification for Financial User Profiling: A Lightweight Approach”
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>17:00 - 17:10</th>
+                  <td>📄 <b>Oral Presentation:</b> “GReaTER: Generate Realistic Tabular Data after Data Enhancement and Reduction” 
+                  </td>
+                  </tr>
+
+                  <tr>
+                  <th>17:10 - 17:20</th>
+                  <td>📄 <b>Oral Presentation:</b> “ZiGong 1.0: A Large Language Model for Financial Credit”
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+  </section>
+  <section class='bg-light' id="keynote">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Keynote Speakers</h2>
+    <div class="row">
+            <div class="col-sm-4">
+              <div class="keynote">
+    <a href="https://sites.google.com/view/jpei/jian-peis-homepage"><img src="img/peijian.jpeg" alt=""></a>
+    <h4><a href="https://sites.google.com/view/jpei/jian-peis-homepage">Prof. Jian Pei</a></h4>
+    <p class="text-muted" style="display:inline">Arthur S. Pearse Distinguished Professor</p></br>
+    <p class="text-muted" style="display:inline">Duke University</p></br>
+              </div>    
+            </div>
+
+            <div class="col-sm-4">
+              <div class="keynote">
+    <a href="https://jianzhongqi.github.io"><img src="img/qi_jianzhong.png" alt=""></a>
+    <h4><a href="https://jianzhongqi.github.io">Prof. Jianzhong Qi</a></h4>
+    <p class="text-muted" style="display:inline">Associate Professor</p></br>
+    <p class="text-muted" style="display:inline">The University of Melbourne</p></br>
+              </div>    
+            </div>
+
+     <div class="col-sm-4">
+              <div class="keynote">
+    <a href="https://zwt233.github.io"><img src="img/wentao_zhang.jpg" alt=""></a>
+    <h4><a href="https://zwt233.github.io">Prof. Wentao Zhang</a></h4>
+    <p class="text-muted" style="display:inline">Assistant Professor </p></br>
+    <p class="text-muted" style="display:inline">Peking University</p></br>
+              </div>    
+            </div>      
+      
+     
+    </div>  
+  </div>
+  </section>
+  
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-heading text-uppercase">Organization</h2>
+      </div>
+  
+      <!-- Workshop Co-Chairs -->
+      <div class="text-center mb-4">
+        <h3 class="section-heading text-uppercase">Workshop Co-Chairs</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="https://www4.comp.polyu.edu.hk/~csqli/"><img class="mx-auto" style="max-width:none" src="img/liqing.png" alt="Qing Li"></a>
+            <h4><a href="https://www4.comp.polyu.edu.hk/~csqli/">Qing Li</a></h4>
+            <p class="text-muted">Professor</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="https://wenqifan03.github.io/"><img class="mx-auto" style="max-width:none" src="img/Wenqi.png" alt="Wenqi Fan"></a>
+            <h4><a href="https://wenqifan03.github.io/">Wenqi Fan</a></h4>
+            <p class="text-muted">Assistant Professor</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/wu_pangjing.png" alt="Pangjing Wu"></a>
+            <h4><a href="#">Pangjing Wu</a></h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Program Committee Chairs -->
+      <div class="text-center mt-5 mb-4">
+        <h3 class="section-heading text-uppercase">Program Committee Chairs</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/yujuan.png" alt="Yujuan Ding"></a>
+            <h4>Yujuan Ding</h4>
+            <p class="text-muted">Research Assistant Professor</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/ningliangbo.png" alt="Liangbo Ning"></a>
+            <h4>Liangbo Ning</h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/wangshijie.jpeg" alt="Shijie Wang"></a>
+            <h4>Shijie Wang</h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Technical / Proceedings / Publicity Chairs -->
+      <div class="text-center mt-5 mb-4">
+        <h3 class="section-heading text-uppercase">Technical / Proceedings / Publicity Chairs</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/liuyunqing.jpg" alt="Yunqing Liu"></a>
+            <h4>Yunqing Liu <br><small class="text-muted">Technical Chair</small></h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/quhaohao.jpg" alt="Haohao Qu"></a>
+            <h4>Haohao Qu <br><small class="text-muted">Proceedings Chair</small></h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/zhaozihuai.jpg" alt="Zihuai Zhao"></a>
+            <h4>Zihuai Zhao <br><small class="text-muted">Publicity Chair</small></h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Web / Awards Chairs -->
+      <div class="text-center mt-5 mb-4">
+        <h3 class="section-heading text-uppercase">Web / Awards Chairs</h3>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/liuchengyi.jpg" alt="Chengyi Liu"></a>
+            <h4>Chengyi Liu <br><small class="text-muted">Web Chair</small></h4>
+            <p class="text-muted">PhD Student</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <a href="#"><img class="mx-auto" style="max-width:none" src="img/wuyao.jpg" alt="Yao Wu"></a>
+            <h4>Yao Wu <br><small class="text-muted">Awards Chair</small></h4>
+            <p class="text-muted">Research Fellow</p>
+            <p class="text-muted">The Hong Kong Polytechnic University</p>
+          </div>
+        </div>
+        <div class="col-sm-4"><!-- empty column for alignment --></div>
+      </div>
+    </div>
+  </section>
+  
+    
+
+    <br>
+    <a href="https://clustrmaps.com/site/1bl2d" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=thhPDQSm423zwtB8ZIAogRPZmStgsjhGhhdPEn8720Q&cl=ffffff"></a>
+    <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=thhPDQSm423zwtB8ZIAogRPZmStgsjhGhhdPEn8720Q&cl=ffffff&w=a"></script> -->
+          
+          </div>
+    </div>
+      </div>
+    </footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
