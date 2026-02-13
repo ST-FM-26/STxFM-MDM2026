@@ -17,15 +17,24 @@ We welcome submissions on themes including, but not limited to:
 ### LLM-empowered Spatio-Temporal Data
 
 • Trajectory Data Cleansing and Map-matching with LLMs
+
 • Natural Language Interfaces for Spatial Databases (Text-to-SQL for GIS)
+
 • Zero-shot and Few-shot Learning for Urban Flow Prediction
-• LLM-based Spatial Reasoning and Navigation Instructions
+
+• LLM-based Spatial Reasoning and Navigation Instructions
+
 • Interpretable Spatio-Temporal Forecasting via LLMs
 
 ### Spatio-Temporal Data Enhanced LLMs
-• Retrieval-Augmented Generation (RAG) with Geographic Knowledge Bases
-• Tokenization Strategies for Continuous SpatioTemporal Coordinates
-• Pre-training LLMs with Multi-modal SpatioTemporal Data
+• Retrieval-Augmented Generation (RAG) with Geographic Knowledge Bases
+
+• Tokenization Strategies for Continuous Spatio-Temporal Coordinates
+
+• Pre-training LLMs with Multi-modal Spatio-Temporal Data
+
 • Benchmarking LLMs on Spatial Intelligence and Geographic Logic
+
 • Privacy-preserving Spatio-Temporal Data Synthesis using LLMs
+
 • Urban foundation models
