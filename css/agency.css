@@ -215,7 +215,7 @@ header.masthead::before {
   background-image: inherit;   /* 使用同样的背景图 */
   background-size: cover;
   background-position: center;
-  filter: blur(3px);           /* ← 模糊强度，可调 */
+  filter: blur(1.5px);           /* ← 模糊强度，可调 */
   transform: scale(1.1);       /* 防止边缘出现透明缝隙 */
   z-index: 0;
 }
