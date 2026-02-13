@@ -12,25 +12,20 @@ management, the workshop provides a platform to discuss ideas, review past work,
 By including participants from both academia and industry, the workshop aims to connect practical urban applications with cutting-edge research, encouraging collaborations that will shape the future of intelligent spatio-temporal systems and their impact on societal well-being.
 
 ## Workshop Topics and Themes
-The rapid evolution of Large Language Models (LLMs) is reshaping the landscape of knowledge base and database management, creating new opportunities as well as challenges. LLMs are opening up novel pathways for core knowledge base and database tasks, including data cleansing, schema and relation inference, knob tuning, and query processing, while knowledge bases and database systems are increasingly being leveraged to enhance LLM reliability, mitigate hallucination, and improve data governance and privacy. Despite growing interest and early successes in both LLM-empowered knowledge base/database systems and knowledge base/database-enhanced LLMs, this research area remains at an early and dynamic stage. We invite submissions that explore the synergy, integration, and co-evolution of knowledge bases, database systems, and LLMs, and that provide insights, solutions, or emerging applications from academic and industrial perspectives.
+We welcome submissions on themes including, but not limited to:
 
-The workshop welcomes theory and methodology papers falling into the scope of following themes, including but not limited to:
-### LLM-empowered knowledge and data engineering
-- LLM-enabled Improvements to Foundational KB and DB Algorithms
-- Database Design, Configuration, and Tuning with LLMs
-- Data Cleansing and Augmentation with LLMs
-- Data Indexing and Query Optimization with LLMs
-- Reasoning Over Knowledge Bases with LLMs
-- Automated Data Understanding and Visualization with LLMs
-- Novel Query Interfaces and Interactive Query Refinement with LLMs
-- Context-aware Data Retrieval with LLMs
-- Personalized Query Optimization Using LLMs 
+### LLM-empowered Spatio-Temporal Data
 
-### Knowledge base and database-enhanced LLMs
-- Data Collection and Preparation for LLMs
-- DB-inspired Techniques for Modeling, Storage, and Provenance of LLMs
-- Vector Data Management for LLMs
-- Data and Metadata Management for LLM Life Cycle
-- Data Management for Multi-modal LLMs
-- Retrieval-augmented Generation and Reasoning for LLMs
-- Novel Data Management Systems for Accelerating LLM Training
+• Trajectory Data Cleansing and Map-matching with LLMs
+• Natural Language Interfaces for Spatial Databases (Text-to-SQL for GIS)
+• Zero-shot and Few-shot Learning for Urban Flow Prediction
+• LLM-based Spatial Reasoning and Navigation Instructions
+• Interpretable Spatio-Temporal Forecasting via LLMs
+
+### Spatio-Temporal Data Enhanced LLMs
+• Retrieval-Augmented Generation (RAG) with Geographic Knowledge Bases
+• Tokenization Strategies for Continuous SpatioTemporal Coordinates
+• Pre-training LLMs with Multi-modal SpatioTemporal Data
+• Benchmarking LLMs on Spatial Intelligence and Geographic Logic
+• Privacy-preserving Spatio-Temporal Data Synthesis using LLMs
+• Urban foundation models
