@@ -212,11 +212,12 @@ header.masthead::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: inherit;   /* 使用同样的背景图 */
+  background-color: rgba(0, 0, 0, 0.1); /* 黑色背景，0.5 代表 50% 透明度 */
+  /* background-image: inherit; 
   background-size: cover;
   background-position: center;
-  filter: blur(0.0px);           /* ← 模糊强度，可调 */
-  transform: scale(1.1);       /* 防止边缘出现透明缝隙 */
+  filter: blur(0.0px);        
+  transform: scale(1.1);        */
   z-index: 0;
 }
 
